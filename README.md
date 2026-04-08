@@ -1,4 +1,4 @@
-# Singularity Forecaster v2.0 (Monte Carlo Edition)
+# Singularity Forecaster v2.1 (Monte Carlo Edition)
 
 An advanced analytical tool and simulation engine designed to forecast the arrival of Artificial General Intelligence (AGI) and Superintelligence (ASI). Unlike simple exponential models, this script uses a multi-factor approach to simulate the complex dynamics of AI progress.
 
@@ -11,7 +11,7 @@ The model simulates thousands of possible future trajectories (Monte Carlo metho
 This script implements several advanced forecasting methods:
 
 ### 1. Logistic Scaling Laws (Paradigm-Based)
-Traditional models assume infinite power-law scaling. Version 2.0 introduces Logistic Saturation:
+Traditional models assume infinite power-law scaling. Version 2.1 introduces Logistic Saturation:
 * Paradigm Ceilings: Each AI paradigm (e.g., Transformers, Diffusion) has an inherent capability ceiling.
 * Paradigm Shifts: The model simulates random "breakthrough events" that shift the ceiling upward, allowing for sudden leaps in progress.
 
@@ -78,4 +78,4 @@ This is a mathematical model for educational and forecasting purposes. It does n
 
 ---
 Author: slavabelik79  
-Model Version: 2.0 (Corrected Physics & Non-Technical Barriers)
+Model Version: 2.1 (Corrected Physics & Non-Technical Barriers)

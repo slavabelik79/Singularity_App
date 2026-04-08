@@ -1,6 +1,6 @@
 ﻿#!/usr/bin/env python3
 """
-Прогноз сингулярности v2.0 — исправленная версия
+Прогноз сингулярности v2.1 — исправленная версия
 
 Что исправлено по сравнению с v1.0:
   1. Scaling law с убывающей отдачей (логистическая насыщаемость внутри парадигмы)
@@ -16,7 +16,7 @@ import datetime
 import json
 import numpy as np
 
-MODEL_VERSION = "v2.0 (Corrected Physics & Non-Technical Barriers)"
+MODEL_VERSION = "v2.1 (Corrected Physics & Non-Technical Barriers)"
 
 # ---------------------------------------------------------------------------
 # Параметры модели (обновлены до 2026 года)
