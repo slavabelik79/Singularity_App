@@ -16,7 +16,7 @@ Traditional models assume infinite power-law scaling. Version 2.1 introduces Log
 * Paradigm Shifts: The model simulates random "breakthrough events" that shift the ceiling upward, allowing for sudden leaps in progress.
 
 ### 2. Continuous Inference Scaling
-Inspired by recent breakthroughs (like OpenAI’s o1/o3), the model treats Inference-Time Compute as a continuous multiplier. As models gain capability, the effectiveness of additional "thinking time" increases, creating a non-linear boost to problem-solving abilities.
+Inspired by recent breakthroughs, the model treats Inference-Time Compute as a continuous multiplier. As models gain capability, the effectiveness of additional "thinking time" increases, creating a non-linear boost to problem-solving abilities.
 
 ### 3. Technical & Physical Barriers
 * Data Wall: Starting in 2026, the scarcity of high-quality human-generated data begins to slow down both hardware utilization and algorithmic breakthroughs.
@@ -44,28 +44,24 @@ The script runs 3,000+ independent trajectories with randomized variables (doubl
 
 ## 📊 How to Run
 
+### Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
 ### CLI Version
-1. Ensure you have numpy installed:
- ```bash
- pip install numpy
- ```
-2. Run the script:
- ```bash
- python singularity_v2_1.py
- ```
+```bash
+python singularity_v2_1.py
+```
 
 ### Web Dashboard (Flask)
 A 4‑chart interactive dashboard is included:
 
-1. Install Flask:
- ```bash
- pip install flask
- ```
-2. Start the server:
+1. Start the server:
  ```bash
  python app.py
  ```
-3. Open http://localhost:5000 in your browser.
+2. Open http://localhost:5000 in your browser.
 
 The dashboard provides:
 * **Histogram** – AGI/ASI distribution across Monte Carlo runs.
