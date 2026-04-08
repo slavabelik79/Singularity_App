@@ -1,7 +1,6 @@
 ﻿#!/usr/bin/env python3
 """
 Прогноз сингулярности v2.0 — исправленная версия
-Автор правок: Claude Sonnet (апрель 2026)
 
 Что исправлено по сравнению с v1.0:
   1. Scaling law с убывающей отдачей (логистическая насыщаемость внутри парадигмы)
@@ -24,7 +23,7 @@ MODEL_VERSION = "v2.0 (Corrected Physics & Non-Technical Barriers)"
 # ---------------------------------------------------------------------------
 CONFIG = {
     "FRONTIER": {
-        # Gemini Ultra 2 / GPT-5 класс — оценочно ~10^27.5 по данным Epoch AI (начало 2026)
+        # Frontier models of early 2026 — estimated ~10^27.5 according to Epoch AI
         "training_flops_log10": 27.5,
         # Capability Score = 1.0 соответствует этому уровню.
         # Операционально: модель решает ~85% задач ARC-AGI-1, но не ARC-AGI-2;
